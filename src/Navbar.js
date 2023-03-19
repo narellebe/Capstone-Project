@@ -7,7 +7,7 @@ import {
   NavBtn,
   NavBtnLink,
 } from './NavbarElements';
-import './App.css'
+import './Components/App.css'
 import logo from './logo.png';
 
 const Navbar = () => {

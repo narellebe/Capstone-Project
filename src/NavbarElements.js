@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   padding: 0.5rem calc((100vw - 1000px) / 2);
-  z-index: 16;
+  z-index: 12;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
