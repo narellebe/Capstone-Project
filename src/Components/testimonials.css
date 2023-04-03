@@ -1,0 +1,65 @@
+.tcard3 {
+    padding: 0.9rem calc((100vw - 1000px) / 2);
+    display: flex;
+    justify-content: center;
+}
+
+.tcard {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    background: #EDEFEE;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .testimonialHead {
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Markazi Text";
+  }
+  
+  .tphoto {
+    max-width: 35%;
+    vertical-align: top;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 6px;
+  }
+  
+  .testbody {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 45%;
+    bottom: 0;
+    padding: 10px;
+    font-family: "Helvetica";
+  }
+  
+  .ttitle {
+    margin-left: 20px;
+    font-size: 1.1em;
+    font-weight: normal;
+    top: 0;
+    right: 10%;
+    left: 0;
+    bottom: 0;
+    font-family: "Helvetica";
+  }
+  
+  
+  /* Demo purposes only */
+  
+  tcard {
+    background-color: #212121;
+  }

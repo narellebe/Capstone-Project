@@ -1,18 +1,15 @@
 import React from 'react';
-  
-const Login = () => {
+import '../App'
+
+import Footer from '../../src/Components/Footer'
+import Navbar from '../Navbar';
+
+export default function Login() {
+
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
-      <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
-    </div>
+    <>
+      <Navbar/>
+      <Footer/>
+    </>
   );
-};
-  
-export default Login;
+}

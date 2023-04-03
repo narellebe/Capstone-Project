@@ -1,19 +1,75 @@
 
-.grid {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
-    grid-gap: 10px;
+
+Header {
+    background-color: #495E57;
 }
+
+headerBody {
+    display: grid;
+    background-color: #495E57;
+    padding: 0.7rem calc((100vw - 1000px) / 2);
+    grid-template-columns: auto;
+    grid-auto-rows: 40px;
+    grid-gap: 50px;
+}
+
+.headerText {
+    color: #F4CE14;
+    font-size: 50px;
+    font-family: "Markazi Text";
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0;
+}
+
+.subHeading {
+    color: #FFFFFF;
+    font-family: "Helvetica";
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 0;
+
+}
+.bodyH {
+    grid-area: d;
+    color: #FFFFFF;
+    font-family: "Helvetica";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding: 0;
+}
+
+.headerimg {
+    overflow:hidden;
+    object-fit:cover;
+    position: static;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    padding:15px;
+}
+
+.llbtn {
+    grid-area: f;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
 
 .grid > * {
     border: 2px solid rgb(137,153,175);
 }
 
-.item {
-    grid-column: 2;
-    grid-row: 2;
-}
+
 
 .NavBarItems {
     width: 500px;

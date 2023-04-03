@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import img1 from './restauranfood.jpg'
+import { NavBtn } from './NavbarElements';
+import { NavBtnLink } from './NavbarElements';
 
 function Header() {
   return (
@@ -11,15 +13,15 @@ function Header() {
       <h2 className='subHeading'>
         <div>Chicago</div>
       </h2>
-      <body className='body'>
+      <body className='bodyH'>
         <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
       </body>
       <body className='headerimg'>
-        <img src={img1} height = '100px'/>
+        <img src={img1} width = '420px' height = '370px'/>
       </body>
-      <btn className='llbtn'>
-        <h3>Reserve a Table</h3>
-      </btn>
+      <NavBtn className='llbtn'>
+      <NavBtnLink to='/reservations'><b>Reserve a Table</b></NavBtnLink>
+      </NavBtn>
     </headerBody>
 )}
 

@@ -1,0 +1,152 @@
+.specialsParent {
+  display:grid;
+  grid-template-areas:
+  "y a a a a a a a a a a a b b b c c j j"
+  "d d d d d d d d d d d d d d d d d d d"
+}
+.specialsHeader{
+  grid-area: a;
+  position:static;
+  margin-left: 16rem;
+  font-family:'Markazi Text';;
+}
+.spBtn{
+  grid-area: c;
+}
+cardParent{
+  grid-area: d;
+}
+
+.price{
+  position: relative;
+  left: 10.62%;
+  right: 3.94%;
+  top: 20.0%;
+  bottom: 10.4%;
+  
+  font-family: 'helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  
+  color: #EE9972;
+  }
+
+
+.specialsParent {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .specialsParent a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+  }
+  
+  /* basic article elements styling */
+  .spTitle {
+    margin: 0 0 18px 0;
+    font-family:'Markazi Text';;
+    font-size: 1rem;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+    position: relative;
+    left: 9.45%;
+    right: 28.74%;
+    top: 17.6%;
+    bottom: 47.6%;
+
+    /* Card_title */
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 90%;
+
+  /* or 22px */
+  }
+  
+  .specialsCard {
+    margin: 0;
+    padding: 10px 0;
+    font-family: "helvetica";
+    line-height: 1.6rem;
+    background-image: linear-gradient(10deg, #EDEFEE, #EDEFEE);
+    min-height: 20vh;
+    border-radius: 8px 8px 0px 0px;
+  }
+  
+  .spCardImg {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 100%;
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .spBody {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 3.45%;
+    right: 8.66%;
+    top: 40.6%;
+    bottom: 50%;
+    font-family: 'helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 24px;
+  }
+
+  
+  /************************ 
+  Generic layout (demo looks)
+  **************************/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing:content-box;
+  }
+
+  
+
+  CardParent {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+ 
+ 
+  
+  .text-medium-emphasis {
+    font-family: 'helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    position:relative;
+    left: 9.45%;
+    right: 36.61%;
+    top: 89%;
+    bottom: 4.6%;
+  }

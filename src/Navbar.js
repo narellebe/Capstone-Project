@@ -6,7 +6,7 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
-} from './NavbarElements';
+} from './Components/NavbarElements';
 import './Components/App.css'
 import logo from './logo.png';
 

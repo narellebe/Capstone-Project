@@ -1,17 +1,15 @@
 import React from 'react';
-  
-const About = () => {
+import '../App'
+
+import Footer from '../../src/Components/Footer'
+import Navbar from '../Navbar';
+
+export default function About() {
+
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
-    </div>
+    <>
+      <Navbar/>
+      <Footer/>
+    </>
   );
-};
-  
-export default About;
+}

@@ -1,14 +1,33 @@
 import React from 'react';
-import './App.css';
+import './testimonials.css';
+import User from './user.png'
 
 function Testimonials() {
     return(
-        <testimonialBody>
+        <testimonialBody className='tall'>
             <h1 className='testimonialHead'>Testimonials</h1>
-            <testimonialCard><h2>Name</h2></testimonialCard>
-            <testimonialCard><h2>Name</h2></testimonialCard>
-            <testimonialCard><h2>Name</h2></testimonialCard>
-            <testimonialCard><h2>Name</h2></testimonialCard>
+            <testimonialMain className= 'tcard3'>
+            <testimonialCard className= "tcard">
+                <img className='tphoto' src={User} width='50px'/>
+                <h2 className ='ttitle'>John Doe</h2>
+                <body className = 'testbody'>Review Information</body>
+            </testimonialCard>
+            <testimonialCard className= "tcard">
+                <img className='tphoto' src={User} width='50px'/>
+                <h2 className ='ttitle'>John Doe</h2>
+                <body className = 'testbody'>Review Information</body>
+            </testimonialCard>
+            <testimonialCard className= "tcard">
+                <img className='tphoto' src={User} width='50px'/>
+                <h2 className ='ttitle'>John Doe</h2>
+                <body className = 'testbody'>Review Information</body>
+                </testimonialCard>
+            <testimonialCard className= "tcard">
+                <img className='tphoto' src={User} width='50px'/>
+                <h2 className ='ttitle'>John Doe</h2>
+                <body className = 'testbody'>Review Information</body>
+            </testimonialCard>
+            </testimonialMain>
         </testimonialBody>
     )
 }
