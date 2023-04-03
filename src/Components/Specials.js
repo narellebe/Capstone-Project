@@ -1,8 +1,8 @@
 import React from 'react';
 import './specials.css';
-import GreekSalad from "./greek salad.jpg";
-import Bruchetta from "./bru.PNG";
-import LemonDessert from "./lemon dessert.jpg";
+import GreekSalad from "../Assets/greek salad.jpg";
+import Bruchetta from "../Assets/bru.PNG";
+import LemonDessert from "../Assets/lemon dessert.jpg";
 import {
     MDBCard,
     MDBCardBody,

@@ -6,9 +6,9 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
-} from './Components/NavbarElements';
-import './Components/App.css'
-import logo from './logo.png';
+} from './NavbarElements';
+import './App.css'
+import logo from '../Assets/logo.png';
 
 const Navbar = () => {
   return (

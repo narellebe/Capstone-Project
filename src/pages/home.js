@@ -5,7 +5,7 @@ import '../../src/Components/App.css';
 import Testimonials from '../../src/Components/Testimonials'
 import Footer from '../../src/Components/Footer'
 import Main from '../../src/Components/Main'
-import Navbar from '../Navbar';
+import Navbar from '../Components/Navbar';
 
   
 const Home = () => {

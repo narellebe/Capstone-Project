@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import img1 from './restauranfood.jpg'
+import img1 from '../Assets/restauranfood.jpg'
 import { NavBtn } from './NavbarElements';
 import { NavBtnLink } from './NavbarElements';
 

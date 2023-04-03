@@ -2,7 +2,7 @@ import React from 'react';
 import '../App'
 import ReservationForm from '../Components/BookingForm';
 import Footer from '../../src/Components/Footer'
-import Navbar from '../Navbar';
+import Navbar from '../Components/Navbar';
 
 import { useReducer } from "react";
 import { fetchAPI } from "../bookingsAPI";
